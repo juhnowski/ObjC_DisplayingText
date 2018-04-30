@@ -26,4 +26,11 @@
 }
 
 
+- (IBAction)DisplayText:(id)sender {
+
+    self.Label.text = self.textField.text;
+    
+}
+
+
 @end
